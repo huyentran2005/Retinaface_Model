@@ -12,7 +12,6 @@ from torch.optim import lr_scheduler
 import torch.distributed as dist
 import eval_model
 import torchvision
-import model
 import os
 from torch.utils.data.distributed import DistributedSampler
 import retinaface_model
