@@ -111,7 +111,7 @@ def main():
         if epoch % args.eval_step == 0:
             print('-------- RetinaFace Pytorch --------')
             print ('Evaluating epoch {}'.format(epoch))
-            recall, precision = eval_widerface.evaluate(dataloader_val,retinaface)
+            recall, precision = eval_model.evaluate(dataloader_val,retinaface)
             print('Recall:',recall)
             print('Precision:',precision)
 
