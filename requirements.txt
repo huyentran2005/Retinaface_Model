@@ -1,0 +1,9 @@
+numpy
+torch
+torchvision
+opencv-python
+scikit-image
+python-multipart
+tqdm
+terminaltables
+tensorboardX
